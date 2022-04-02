@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tennis Match Predictor</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+    </style>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <h4>Tennis Match Predictor</h4>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">Overview</a>
+      </li>
+      <li>
+        <a href="#">Model</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+    <div class="burger">
+      <div class="Line1"></div>
+      <div class="Line1"></div>
+      <div class="Line1"></div>
+    </div>
+  </nav>
+</div>
+</nav>
+<!-- Top -->
+<div class="w3-padding-large" id="main">
+  <header class="w3-display-container w3-content w3-center" style="max-width:1200px">
+    <img class="w3-image" src="Images/option3.png" alt="Me" width="1800" height="700">
+    <div class="w3-display-middle w3-padding-large w3-wide w3-text-light-grey w3-center">
+      <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GAME, SET, MATCH!</h1>
+      <h3 class="w3-hide-medium w3-hide-small">...</h3>
+    </div>
+  </header>
+<br/>
+<br/>
+<br/>
+<!-- First Section: Project Overview -->
+<div class="w3-main" style="margin-left:250px">
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-dark-grey">Project Overview</h1>
+      <p>Machine learning model that accurately predicts the outcome of tennis matches between two players</p>
+    </div>
+  </div>
+<!-- Second Section: Select Players -->
+  <div class="w3-container mt-5 w3-text-dark-grey w3-left">
+    <div class="row">
+      <div class="col-md-6 m-auto">
+        <h1 class="text-center mb-3">Select Player</h1>
+        <div class="form-group">
+         <input type="text" id="search" class="form-control form-control-lg" placeholder="Enter Player Name">
+        </div>
+        <div id="match-list"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/tennis2.js"></script>
+  <script src="js/players.json"></script>
+
+</body>
+</html>
