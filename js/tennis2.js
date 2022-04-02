@@ -20,7 +20,7 @@ const searchPlayer = async searchText => {
 
     outputHtml(matches);
 };
-//debugger;
+
 const outputHtml = matches => {
     if(matches.length > 0){
         const html = matches.map(match => `
@@ -34,3 +34,5 @@ const outputHtml = matches => {
 }
 //debugger;
 search.addEventListener('input', () => searchPlayer(search.value));
+
+
