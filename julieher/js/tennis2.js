@@ -25,7 +25,7 @@ const outputHtml = matches => {
     if(matches.length > 0){
         const html = matches.map(match => `
         <div class="card card-body mb-1">
-            <h4>${match.first_name} (${match.last_name}) <span class="text-primary">${match.birthplace}</span></h4>
+            <h4>${match.first_name} ${match.last_name}</h4>
         </div>
         `
         ).join('');
