@@ -2,6 +2,7 @@ const search = document.getElementById('search');
 const matchList = document.getElementById('match-list');
 
 
+
 // Search players.json and filter it
 const searchPlayer = async searchText => {
     const res = await fetch('js/players.json');
@@ -34,5 +35,3 @@ const outputHtml = matches => {
 }
 //debugger;
 search.addEventListener('input', () => searchPlayer(search.value));
-
-

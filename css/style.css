@@ -41,3 +41,26 @@ nav{
     background-color:rgb(226, 226, 226);
     margin: 5px;
 }
+table {
+    border-collapse: collapse;
+    margin-top: .7em;
+} 
+caption {
+    font-size: 1.4em;
+    font-weight:bold;
+}
+thead {
+    background-color: rgb(226, 226, 226);
+    font-weight:bold;
+}
+td {
+    padding: .2em .7em;
+    width: 8em;
+    border: 1px solid grey;
+}
+tbody {
+    text-align: right;
+}
+.noDisplay {
+    display: none;
+}

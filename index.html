@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tennis Match Predictor</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -60,18 +60,24 @@
 <br/>
 <br/>
 <br/>
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3">
       <h1 class="text-left mb-3 text-light-grey">Select Player</h1>
       <ul class="list-group">
       <li class="list-group-item">
-        <label for="First Name">Player Name</label>
         <input class="form-control form-control-lg" id="search" type="text" placeholder="Enter Player Name" />
-      </li>
+      </li> 
       <div id="match-list"></div>
       </ul>
+      <br/>
+  <!-- Player Selection -->
+  <div class="panel panel-primary">
+    <h2 class="panel-title w3-text-dark-grey">Player Overview</h2>
+    <div id="sample-data" class="panel-body">
+      <h6>Information will show here</h6>
+    </div>
+  </div>
     </div>
   </div>
 </div>
