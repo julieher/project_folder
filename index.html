@@ -8,6 +8,7 @@
   <title>Tennis Match Predictor</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
 
@@ -59,19 +60,22 @@
 <br/>
 <br/>
 <br/>
-<!-- Second Section: Select Players -->
-<div class="w3-main" style="margin-left:250px"> 
-  <div class="w3-container mt-5 w3-text-dark-grey w3-left">
-    <div class="row">
-      <div class="col-md-6 m-auto">
-        <h1 class="text-center mb-3">Select Player</h1>
-        <div class="form-group">
-         <input type="text" id="search" class="form-control form-control-lg" placeholder="Enter Player Name">
-        </div>
-        <div id="match-list"></div>
-      </div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <h1 class="text-left mb-3 text-light-grey">Select Player</h1>
+      <ul class="list-group">
+      <li class="list-group-item">
+        <label for="First Name">Player Name</label>
+        <input class="form-control form-control-lg" id="search" type="text" placeholder="Enter Player Name" />
+      </li>
+      <div id="match-list"></div>
+      </ul>
     </div>
   </div>
+</div>
+  
   
   <script src="js/tennis2.js"></script>
   <script src="js/players.json"></script>
