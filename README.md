@@ -13,6 +13,8 @@
 4. Database
     - [Database Storage](#Database-Storage:)
 
+Link to presentation: https://docs.google.com/presentation/d/1Ls3NwU10uxvZovScrWnc-1DtVh1fgiCA2dgChteHuOM/edit?usp=sharing
+
 
 ## Overview:
 The purpose of this project is to build a machine learning model in order to accurately predict the outcome of tennis matches.
